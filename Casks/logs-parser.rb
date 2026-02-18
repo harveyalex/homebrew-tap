@@ -8,4 +8,9 @@ cask "logs-parser" do
   homepage "https://github.com/harveyalex/logs-parser"
 
   app "LogsParserDesktop.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/LogsParserDesktop.app"]
+  end
 end
