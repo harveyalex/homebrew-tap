@@ -1,6 +1,6 @@
 cask "logs-parser" do
-  version "0.1.1"
-  sha256 "27250930d7fe785d2ee1de7138ba3b5a6a422fe072b83711574c160a5ff92c61"
+  version "0.1.2"
+  sha256 "ebd3a34db861dd0d63150f32d214182eb899508c4cd6161bab36b4c13d394cf0"
 
   url "https://github.com/harveyalex/logs-parser/releases/download/v#{version}/logs-parser.dmg"
   name "Logs Parser"
